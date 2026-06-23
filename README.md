@@ -1,50 +1,101 @@
 # Ola Ride Analysis Dashboard
 
-                                                     ## Project Overview ##
-This project analyzes Ola ride booking data using Power BI to understand booking trends, revenue generation, cancellations, vehicle performance, and customer/driver ratings. The dashboard provides interactive visual insights to support business decision-making.
+                                                      # Ola Ride Analysis using SQL and Power BI ##
+
+## Project Overview
+This project analyzes Ola ride booking data using PostgreSQL and Power BI to understand booking trends, revenue generation, ride cancellations, customer behavior, and vehicle performance. The project combines SQL-based data analysis with interactive Power BI dashboards.
 
 ---
 
-## Dashboard Pages
+## Database Design
+Created a bookings database containing ride-related information such as:
+- Booking Details
+- Customer Information
+- Vehicle Types
+- Payment Methods
+- Ride Distance
+- Ratings
+- Cancellation Reasons
 
-### 1. Overall Analysis
-- Total Bookings Analysis
-- Booking Value Analysis
-- Ride Volume Over Time
+---
+
+## SQL Concepts Used
+- SELECT Statements
+- WHERE Clause
+- GROUP BY
+- Aggregate Functions
+- CTEs
+- Type Casting
+- ORDER BY
+- LIMIT
+- Filtering and Data Cleaning
+
+---
+
+## Business Problems Solved using SQL
+
+### 1. Retrieve Successful Bookings
+Analyzed all successfully completed rides.
+
+### 2. Average Ride Distance by Vehicle Type
+Calculated average ride distance for each vehicle category.
+
+### 3. Cancellation Analysis
+Identified rides cancelled by customers and drivers.
+
+### 4. Top Customers Analysis
+Found top customers with highest ride bookings.
+
+### 5. Driver Rating Analysis
+Calculated maximum and minimum ratings for Prime Sedan rides.
+
+### 6. Payment Method Analysis
+Retrieved rides completed using UPI payment.
+
+### 7. Customer Rating Analysis
+Calculated average customer ratings for each vehicle type.
+
+### 8. Revenue Analysis
+Computed total booking value for successful rides.
+
+### 9. Incomplete Ride Tracking
+Tracked incomplete rides along with their reasons.
+
+---
+
+## Power BI Dashboard Pages
+
+### Overall Analysis
+- Total Bookings
+- Booking Value
+- Ride Volume Trend
 - Booking Status Breakdown
-- Interactive Date Filters
 
-### 2. Vehicle Type Analysis
+### Vehicle Type Analysis
 - Vehicle-wise Booking Value
-- Successful Booking Analysis
-- Average Distance Travelled
-- Total Distance Covered by Vehicle Type
+- Successful Bookings
+- Distance Travelled Analysis
 
-### 3. Revenue Analysis
+### Revenue Analysis
 - Revenue by Payment Method
 - Daily Revenue Trends
-- Customer-wise Booking Value Analysis
 
-### 4. Cancellation Analysis
-- Successful vs Cancelled Bookings
-- Cancellation Rate Analysis
-- Customer Cancellation Reasons
-- Driver Cancellation Reasons
+### Cancellation Analysis
+- Cancellation Rate
+- Driver & Customer Cancellation Reasons
 
-### 5. Ratings Analysis
+### Ratings Analysis
+- Customer Ratings
 - Driver Ratings by Vehicle Type
-- Customer Ratings by Vehicle Type
-- Comparison of Customer and Driver Ratings
 
 ---
 
 ## KPIs Included
 - Total Bookings
-- Total Booking Value
+- Total Revenue
 - Successful Bookings
 - Cancelled Bookings
 - Cancellation Rate
-- Revenue by Payment Method
 - Average Distance Travelled
 - Customer Ratings
 - Driver Ratings
@@ -52,6 +103,8 @@ This project analyzes Ola ride booking data using Power BI to understand booking
 ---
 
 ## Tools Used
+- PostgreSQL
+- pgAdmin
 - Power BI
 - Power Query
 - DAX
@@ -61,24 +114,14 @@ This project analyzes Ola ride booking data using Power BI to understand booking
 
 ## Features Implemented
 - Interactive Dashboard Navigation
-- Slicers and Filters
 - KPI Cards
 - Pie Charts
 - Line Charts
 - Table Visuals
-- Data Cleaning using Power Query
-- DAX Measures for KPI Calculations
-
----
-
-## Insights Generated
-- Identified peak ride booking trends
-- Analyzed cancellation patterns
-- Compared performance across vehicle types
-- Evaluated payment method contribution to revenue
-- Compared customer and driver satisfaction ratings
+- SQL Data Analysis
+- Data Cleaning and Transformation
 
 ---
 
 ## Project Outcome
-Developed strong data visualization, dashboard designing, and business analytics skills using Power BI through real-world ride booking data analysis.
+Improved SQL querying, business problem-solving, and dashboard development skills by working on real-world ride booking and transportation analytics data.
