@@ -1,5 +1,5 @@
 CREATE DATABASE ola;
-DROP TABLE IF EXISTS bookings
+
 CREATE TABLE bookings(
 	Date DATE ,
 	Time TIME,
