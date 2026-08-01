@@ -1,6 +1,6 @@
 # Ola Ride Analysis using SQL and Power BI
 
-                                                ## Project Overview ##
+# Project Overview 
 This project analyzes Ola ride booking data using PostgreSQL and Power BI to understand booking trends, revenue generation, ride cancellations, customer behavior, and vehicle performance. The project combines SQL-based data analysis with interactive Power BI dashboards.
 
 ---
